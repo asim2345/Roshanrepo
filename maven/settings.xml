@@ -3,8 +3,10 @@
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
                       https://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
-    <id>dev-azure-com-35655-test</id>
-    <username>Test</username>
-    <password>mxqzyaqpalw3m4ii74o7iu7hkelz6t3dkzsp3pw5pljiknjwdh7a</password>
+    <server>
+      <id>dev-azure-com-35655-test</id>
+      <username>Test</username>
+      <password>mxqzyaqpalw3m4ii74o7iu7hkelz6t3dkzsp3pw5pljiknjwdh7a</password>
+    </server>
   </servers>
 </settings>
