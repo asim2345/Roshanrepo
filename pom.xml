@@ -51,8 +51,8 @@
     </dependencies>
     <repositories>
         <repository>
-            <id><!-- id of feed from Connect to Feed dialog in VSTS !--></id>
-            <url><!-- url of feed from Connect to Feed dialog in VSTS !--></url>
+            <id>dev-azure-com-35655-test</id>
+            <url>https://pkgs.dev.azure.com/35655/_packaging/Test/maven/v1</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -63,8 +63,8 @@
     </repositories>
     <distributionManagement>
         <repository>
-            <id><!-- id of feed from Connect to Feed dialog in VSTS !--></id>
-            <url><!-- url of feed from Connect to Feed dialog in VSTS !--></url>
+            <id>dev-azure-com-35655-test</id>
+            <url>https://pkgs.dev.azure.com/35655/_packaging/Test/maven/v1</url>
         </repository>
     </distributionManagement>
 </project>
