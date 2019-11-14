@@ -7,7 +7,7 @@
     <groupId>com.microsoft.exampledep</groupId>
     <artifactId>MyShuttleCalc</artifactId>
     <version>${buildversion}</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <build>
         <finalName>MyShuttleCalc</finalName>
         <plugins>
