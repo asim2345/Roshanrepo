@@ -51,8 +51,8 @@
     </dependencies>
     <repositories>
         <repository>
-            <id>dev-azure-com-35655-test</id>
-            <url>https://pkgs.dev.azure.com/35655/_packaging/Test/maven/v1</url>
+           <id>dev-azure-com-jpsureshazure-roshan_feed</id>
+            <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -63,8 +63,8 @@
     </repositories>
     <distributionManagement>
         <repository>
-            <id>dev-azure-com-35655-test</id>
-            <url>https://pkgs.dev.azure.com/35655/_packaging/Test/maven/v1</url>
+            <id>dev-azure-com-jpsureshazure-roshan_feed</id>
+            <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
         </repository>
     </distributionManagement>
 </project>
