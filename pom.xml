@@ -49,22 +49,20 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <repositories>
-        <repository>
-           <id>dev-azure-com-jpsureshazure-roshan_feed</id>
-            <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-    <distributionManagement>
-        <repository>
-            <id>dev-azure-com-jpsureshazure-roshan_feed</id>
-            <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
-        </repository>
-    </distributionManagement>
+    
+         
+         <distributionManagement>
+         <repositories>    
+  <repository>
+         <id>dev-azure-com-jpsureshazure-roshan_feed</id>
+         <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+                   </repositories>
+         </distributionManagement>
 </project>
