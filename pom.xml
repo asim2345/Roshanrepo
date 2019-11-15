@@ -52,7 +52,7 @@
     
          
          <distributionManagement>
-         <repositories>    
+            
   <repository>
          <id>dev-azure-com-jpsureshazure-roshan_feed</id>
          <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
@@ -63,6 +63,5 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
-                   </repositories>
-         </distributionManagement>
+                  </distributionManagement>
 </project>
