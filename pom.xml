@@ -70,7 +70,20 @@
          </snapshots>
       </repository>
     </repositories>
-    <distributionManagement>
+    <repositories>
+    <!-- Copy this section from the Maven section of the "Connect to Feed" dialog -->
+      <repository>
+         <id>dev-azure-com-jpsureshazure-roshan_feed</id>
+         <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+   </repositories>
+   <distributionManagement>
     <!-- Copy this section from the Maven section of the "Connect to Feed" dialog -->
       <repository>
          <id>dev-azure-com-jpsureshazure-roshan_feed</id>
