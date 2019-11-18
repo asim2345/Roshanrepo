@@ -52,7 +52,17 @@
     
          
         <distributionManagement>
-		<site>
+		<repository>
+         <id>dev-azure-com-jpsureshazure-roshan_feed</id>
+         <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+		
 			<id>dev-azure-com-jpsureshazure-roshan_feed</id>
                            <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
 			<!--
@@ -65,18 +75,9 @@
 				</server>
 			</servers>
 			-->
-		</site>
+
 	</distributionManagement>
             
-  <repository>
-         <id>dev-azure-com-jpsureshazure-roshan_feed</id>
-         <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
+  
                   
 </project>
