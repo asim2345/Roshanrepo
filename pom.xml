@@ -51,7 +51,22 @@
     </dependencies>
     
          
-         <distributionManagement>
+        <distributionManagement>
+		<site>
+			<id>dev-azure-com-jpsureshazure-roshan_feed</id>
+                           <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
+			<!--
+			YOU MUST PUT THE FOLLOWING IN ~/.m2/settings.xml
+			
+			<servers>
+				<server>
+					<id>github-project-site</id>
+					<username>git</username>
+				</server>
+			</servers>
+			-->
+		</site>
+	</distributionManagement>
             
   <repository>
          <id>dev-azure-com-jpsureshazure-roshan_feed</id>
@@ -63,5 +78,5 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
-                  </distributionManagement>
+                  
 </project>
