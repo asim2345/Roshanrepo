@@ -49,12 +49,33 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    
-         
-        <distributionManagement>
-		<repository>
-         <id>dev-azure-com-jpsureshazure-roshan_feed</id>
-         <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
+    <repositories>
+    <!-- Copy this section from the Maven section of the "Connect to Feed" dialog -->
+      <repository>
+         <repository>
+           <id>dev-azure-com-jpsureshazure-roshan_feed</id>
+           <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
+	<releases>
+        <enabled>true</enabled>
+       </releases>
+       <snapshots>
+       <enabled>true</enabled>
+       </snapshots>
+      </repository>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+   </repositories>
+   <distributionManagement>
+    <!-- Copy this section from the Maven section of the "Connect to Feed" dialog -->
+      <repository>
+         <repository>
+  <id>dev-azure-com-jpsureshazure-roshan_feed</id>
+  <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -62,22 +83,16 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
-		
-			<id>dev-azure-com-jpsureshazure-roshan_feed</id>
-                           <url>https://pkgs.dev.azure.com/jpsureshazure/_packaging/roshan_feed/maven/v1</url>
-			<!--
-			YOU MUST PUT THE FOLLOWING IN ~/.m2/settings.xml
-			
-			<servers>
-				<server>
-					<id>github-project-site</id>
-					<username>git</username>
-				</server>
-			</servers>
-			-->
-
-	</distributionManagement>
-            
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+   </distributionManagement>
+         
+        
   
                   
 </project>
