@@ -4,9 +4,11 @@
                       https://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
     <server>
-       <id>dev-azure-com-jpsureshazure-roshan_feed</id>
+  <id>dev-azure-com-jpsureshazure-roshan_feed</id>
   <username>roshan_feed</username>
-      <password>p3gicfwr2fbhwz7cxoyqz7oztji7grzdgdln7yuz3rwplerphoqq</password>
-    </server>
+  <!-- Treat this auth token like a password. Do not share it with anyone, including Microsoft support. -->
+  <!-- The generated token expires on or before 2/16/2020 -->
+  <password>6r2eqmmzwdxigmzqjkpncqza4nlywsldcp5zcljnjmva4ewroara</password>
+</server>
   </servers>
 </settings>
